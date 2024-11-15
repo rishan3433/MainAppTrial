@@ -42,6 +42,7 @@ input{
     background-color: rgb(19, 143, 19);
     padding-left: 2.5%;
     padding-right: 2.5%;
+    transition: 2s;
 }
 .loginbtn:hover{
     background-color: rgb(105, 105, 105);
@@ -56,6 +57,7 @@ input{
         color: white;
         transition: 2s;
     }
+    transition: 2s;
 }
 body{
     display: flex;
