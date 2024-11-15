@@ -12,6 +12,7 @@
     border: 2px solid red;
     padding: 25px;
     border-radius: 25px;
+    background-color: rgb(142, 167, 0);
     transition: 2.5s;
 }
 .heading{
@@ -32,11 +33,19 @@ input{
     border: 1px solid;
     padding: 10px;
 }
-.loginbtn{
+.loginbtnd{
     display: flex;
     justify-content: center;
+}
+.loginbtn{
+    background-color: rgb(19, 143, 19);
     padding-left: 25px;
     padding-right: 25px;
+}
+.loginbtn:hover{
+    background-color: rgb(105, 105, 105);
+    color: rgb(18, 4, 31);
+    size: 25px;
 }
 .login:hover{
     background-color: red;
@@ -44,7 +53,7 @@ input{
     transition: 2.5s;
     .LoginHeader{
         color: white;
-        transition: 2.5s;
+        transition: 2s;
     }
 }
 body{
