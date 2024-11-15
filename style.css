@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "My-Custom_font";
+    src: url(font/Geist_Mono/);
+}
+
+
+.login{
+    width: min-content;
+    height: auto;
+    display: block;
+    align-items: center;
+    border: 2px solid red;
+    padding: 25px;
+    border-radius: 25px;
+    transition: 2.5s;
+}
+.heading{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: "My-Custom_font",sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    margin: 25px;
+}
+input{
+    margin: 25px;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 10px;
+}
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.login:hover{
+    background-color: red;
+    border: 2px solid white;
+    transition: 2.5s;
+    .LoginHeader{
+        color: white;
+        transition: 2.5s;
+    }
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(105, 105, 105);
+}
