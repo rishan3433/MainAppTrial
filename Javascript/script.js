@@ -44,5 +44,5 @@ function Login(setItem){
 
     console.log(window.location)
 
-    window.location.assign(window.location.href+"/login.html")
+    window.location.assign(window.location.href.replace("/index.html","/login.html"))
 }

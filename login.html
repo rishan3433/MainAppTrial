@@ -9,6 +9,10 @@
 <body>
     <div class="login">
 
+        <div>
+            <button type="button" id="Back_to_Select_Company" onclick="OpenPage('index')">Back_to_Select_Company</button>
+        </div>
+
         <div class="heading">
             <h1 class="LoginHeader">LOGIN</h1>
         </div>
@@ -28,7 +32,10 @@
     </div>
     <script>
 
-        console.log(window.location)
+        function OpenPage(newpage){
+            window.location.assign(window.location.href.replace("/login.html","/"+newpage+".html"))
+        }
+        console.log(window.location.href.replace("/login.html","/Homepage"))
 
     </script>
 </body>

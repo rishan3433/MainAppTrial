@@ -3,7 +3,13 @@
     src: url(font/Geist_Mono/);
 }
 
-
+#Back_to_Select_Company{
+    background-color: transparent;
+    background: transparent;
+    color: blue;
+    border: 0px;
+    height: auto;
+}
 .login{
     width: min-content;
     height: auto;
