@@ -1,0 +1,40 @@
+body{
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    transition: 1.5s;
+
+}
+.headingtext,.registerlink a{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    font-family: sans-serif;
+    transition: 1.5s;
+}
+.full_View{
+    width: 75%;
+    height: auto;
+    transition: 5s;   
+}
+.whole_scenes{
+    width: 65%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: auto;
+    border: 2px solid;
+    left: 50%;
+    transition: 5s;
+}
+.companyList{
+    width: 65%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: auto;
+    left: 50%;
+    border: 2px solid;
+    transition: 5s;
+}
