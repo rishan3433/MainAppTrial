@@ -16,7 +16,7 @@ body{
     transition: 1.5s;
 }
 .full_View{
-    width: 75%;
+    width: 90%;
     height: auto;
     transition: 5s;   
 }
@@ -45,9 +45,12 @@ body{
     padding: 15px;
     margin: 15px;
 }
-.Comapynm button{
+.Comapynm .btncompany button{
     background-color: blueviolet;
     color: #FFFF;
     border-radius: 25px;
     border: 1px;
+}
+.Comapynm .headingCompany h4{
+    width: 100%;
 }
