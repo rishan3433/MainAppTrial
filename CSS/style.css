@@ -38,3 +38,16 @@ body{
     border: 2px solid;
     transition: 5s;
 }
+.Comapynm{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(75, 75, 75);
+    padding: 15px;
+    margin: 15px;
+}
+.Comapynm button{
+    background-color: blueviolet;
+    color: #FFFF;
+    border-radius: 25px;
+    border: 1px;
+}
