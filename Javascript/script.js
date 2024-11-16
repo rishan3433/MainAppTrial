@@ -40,7 +40,9 @@ for (let index = 1; index <= intindex; index++) {
 function Login(setItem){
     localStorage.setItem("Company", setItem)
 
-    alert("yOUR gst ="+setItem)
+    alert("Your gst ="+setItem)
 
-    window.location.assign(window.location.origin+"/login.html")
+    console.log(window.location)
+
+    window.location.assign(window.location.href+"/login.html")
 }
